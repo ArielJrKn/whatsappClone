@@ -1,6 +1,44 @@
 # whatsapp
 
-A new Flutter project.
+# 💬 WhatsApp Clone (Work In Progress)
+
+Un petit clone de WhatsApp 👀  
+Projet en cours de développement avec **Flutter** pour le frontend et **Laravel API** pour le backend.  
+But : recréer les fonctionnalités de base de WhatsApp dans une appli mobile full-stack.
+
+---
+
+## ⚙️ Stack technique
+
+- **Frontend :** Flutter
+- **Backend :** Laravel API
+- **Base de données :** MySQL
+- **Authentification :** JWT (prévu)
+- **Temps réel :** Socket.io (à intégrer)
+
+---
+
+## ✅ Fonctionnalités prévues
+
+- [x] UI de login/register
+- [ ] Authentification avec token
+- [ ] Liste des contacts
+- [ ] Système de chat 1 to 1
+- [ ] Envoi de messages en temps réel
+- [ ] Notifications push (Firebase)
+- [ ] Statuts & stories (comme dans WhatsApp)
+- [ ] Partage de médias
+
+---
+
+## 📦 Installation (partie Flutter)
+
+```bash
+git clone https://github.com/tonblaz/whatsapp-clone.git
+cd whatsapp-clone
+flutter pub get
+flutter run
+
 
 ## Getting Started
 
